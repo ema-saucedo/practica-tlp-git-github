@@ -4,7 +4,7 @@
 }
 /* BARRA DE NAVEGACION  */
 .navbar {
-background-color: rgb(226, 225, 225);
+background-color: rgb(245, 236, 236);
 font-family: Arial, sans-serif;
 padding: 10px;
 align-items: center;
@@ -34,7 +34,48 @@ padding: 15px;
 }
 
 .nav-links a:hover {
-  color: #ffffff;    
+  color:#0066b2;    
   transition: 0.3s;            
 }
 
+/* CONTENIDO PRINCIPAL */
+
+body {
+    font-family:Arial, sans-serif ;
+    line-height: 1.5;
+    color: #2b2b2b;
+    background-image: linear-gradient(rgba(112, 111, 111, 0.75), rgba(159, 159, 159, 0.75)),url('../img/edificio.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* TÍTULOS */
+
+h1 {
+    color: #0066b2 ;
+    text-align: center;
+    border-bottom: 2px solid rgb(106, 106, 255);
+    font-size: 28px;
+}
+h2 {
+    color: #0066b2;
+    margin-top: 15px;
+    border-left: 5px solid #0066b2;
+}
+
+h3 {
+    color: #0066b2;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
