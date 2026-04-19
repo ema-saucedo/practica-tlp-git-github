@@ -1,25 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 main h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5cm;
+    margin-top: 1cm;
+    border: 1px rgba(0, 0, 0, 0.158) solid;
+    background-color: rgb(243, 243, 243);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: fit-content;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: default;
 }
 
 aside h3 {
     margin-left: 1px;
+    margin-top: 0.5cm;
+    border: none;
 }
 
 aside a {
     text-decoration: underline;
+    text-align: left;
 }
 
 aside {
-    text-align: center;
+    text-align: left;
     border: 1px rgba(0, 0, 0, 0.158) solid;
     padding: 30px;
     background-color: rgb(243, 243, 243);
-    margin-left: 25cm;
+    margin-left: 26cm;
+    padding-bottom: 1.5cm;
     border-radius: 15px;
     position: absolute;
-    top: 5.5cm;
+    top: 3.7cm;
+    display: grid;
+    gap: 10px;
 }
 
 p {
@@ -46,7 +68,9 @@ form {
     height: auto;
     display: grid;
     gap: 5px;
-    border-radius: 15px;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 label {
@@ -100,12 +124,36 @@ nav {
     background-color: rgb(245, 236, 236);
     font-family: Arial, sans-serif;
     padding: 10px;
-    align-items: center;
-    justify-content: space-between;
+    align-items: left;
+    justify-content: flex-end;
     display: flex;
 }
 
 header img {
     height: 60px;
-    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 19, 19);
+    padding: 10px;
+}
+
+footer:hover {
+    cursor: default;
+}
+
+iframe {
+    padding-left: 7cm;
+    padding-top: 1cm;
+}
+
+body {
+    background-image: linear-gradient( rgba(112, 111, 111, 0.75), rgba(159, 159, 159, 0.75)), url('../img/edificio.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
