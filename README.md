@@ -11,7 +11,7 @@
 
 ## Descripción
 
-Sitio web informativo sobre una biblioteca pública.
+Sitio web acerca de un Instituto de Formosa.
 
 ## Distribución de tareas
 
