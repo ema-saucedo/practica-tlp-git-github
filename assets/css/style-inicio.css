@@ -1,81 +1,122 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 /* BARRA DE NAVEGACION  */
 .navbar {
-background-color: rgb(245, 236, 236);
-font-family: Arial, sans-serif;
-padding: 10px;
-align-items: center;
-justify-content: space-between;
-display: flex;
+  background-color: rgb(245, 236, 236);
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
 .logo {
-height: 60px;
-display: block;
+  height: 60px;
+  display: block;
 }
 
 .nav-links ul {
-display: flex;
-list-style: none;
-padding: 15px;
+  display: flex;
+  list-style: none;
+  padding: 15px;
 }
 
 .nab-links li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .nav-links a {
-  text-decoration: none;         
-  color: #000000;                   
+  text-decoration: none;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   padding: 15px;
 }
 
 .nav-links a:hover {
-  color:#0066b2;    
-  transition: 0.3s;            
+  color: #0066b2;
+  transition: 0.3s;
 }
 
 /* CONTENIDO PRINCIPAL */
 
 body {
-    font-family:Arial, sans-serif ;
-    line-height: 1.5;
-    color: #2b2b2b;
-    background-image: linear-gradient(rgba(112, 111, 111, 0.75), rgba(159, 159, 159, 0.75)),url('../img/edificio.png'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #2b2b2b;
+  background-image:
+    linear-gradient(rgba(112, 111, 111, 0.75), rgba(159, 159, 159, 0.75)),
+    url("../img/edificio.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 main {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 40px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 /* TÍTULOS */
 
 h1 {
-    color: #0066b2 ;
-    text-align: center;
-    border-bottom: 2px solid rgb(106, 106, 255);
-    font-size: 28px;
+  color: #0066b2;
+  text-align: center;
+  border-bottom: 2px solid rgb(106, 106, 255);
+  font-size: 28px;
 }
 h2 {
-    color: #0066b2;
-    margin-top: 15px;
-    border-left: 5px solid #0066b2;
+  color: #0066b2;
+  margin-top: 15px;
+  border-left: 5px solid #0066b2;
 }
 
 h3 {
-    color: #0066b2;
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
+  color: #0066b2;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* ESTILO DE VIDEO */
+
+video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ESTILOS DE LISTAS */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffffff;
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+ul li:hover {
+  transform: translateX(5px);
+  background: #e9f2fa;
+}
+
+/* ESTILO DEL FOOTER */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
 }
