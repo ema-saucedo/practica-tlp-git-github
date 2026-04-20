@@ -50,9 +50,33 @@
   font-size: 2em;
   color: rgba(255, 255, 255, 0.863);
 }
-.nav {
-  justify-self: center;
+.nav-links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
+
+.nav-links ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.nav-links a:hover {
+  color: rgb(80, 166, 236);
+  transition: 0.3s;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -80,4 +104,8 @@ img {
 }
 .text-box p {
   font-size: 20px;
+}
+footer {
+  display: flex;
+  justify-self: center;
 }
